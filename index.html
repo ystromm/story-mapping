@@ -1,38 +1,170 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Story mapping.js</title>
+    <title>Story mapping.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
+    <!-- Printing and PDF exports -->
+    <script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
 
-		<script>
+
+
+
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Story Mapping</h1>
+            <h3>Doing fun stuff with stickies</h3>
+            <img width=50% src="sticky.jpg"/>
+            <p>
+                <a href="http://twitter.com/ystromm">@ystromm</a>
+            </p>
+            <p>
+                <small>Created with <a href="https://github.com/hakimel/reveal.js">reveal.js</a></small>
+            </p>
+        </section>
+
+        <section>
+            <h2>Why?</h2>
+            <ul>
+                <li>Visual</li>
+                <li>Physical</li>
+                <li>Simple</li>
+                <li>Collaborative</li>
+                <li>Communicative</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>
+                Jeff
+            </h2>
+            <img src="Jeff-Patton.png"/>
+            <p>Flat backlogs don’t work for me.</p>
+        </section>
+        <section>
+            <h2>Documents fail</h2>
+            <img src="cake.jpg"/>
+            <p>
+                <a href="http://www.cakewrecks.com/home/2008/10/11/sorry-you-cant-have-any.html#comment14439135">
+                    Sorry, You Can't Have Any</a>
+            </p>
+        </section>
+        <section>
+            <h2>How to do it</h2>
+            <ul>
+                <li>Outcomes</li>
+                <li>Users</li>
+                <li>Big stories</li>
+                <li>Smaller stories</li>
+                <li>Slices</li>
+            </ul>
+        </section>
+
+        <section>
+            Examples goes here...
+        </section>
+
+        <section>
+            <h2>Take away again</h2>
+            <ul>
+                <li>
+                    There are very few stickies in Retire...
+                </li>
+                <li>
+                    Body memory, Retire is in the lower left corner
+                </li>
+                <li>
+                    No geek language?
+                </li>
+                <li>
+                    Collaborative?
+                </li>
+                <li>
+                    Communicative?
+                </li>
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>
+                Mapping exercise
+            </h2>
+            <a href="http://jpattonassociates.com/story-mapping-example-problems/">Example problems</a>
+        </section>
+
+        <section>
+            <h2>
+                Slicing exercise
+            </h2>
+
+        </section>
+
+        <section>
+            <h2>Micro retro</h2>
+            <ul>
+                <li>
+                    More?
+                </li>
+                <li>
+                    Less?
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Resources</h2>
+            <ul>
+                <li>
+                    <a href="http://jpattonassociates.com/the-new-backlog/">Jeff Patton, The New User Story Backlog is a Map</a>
+                </li>
+                <li>
+                    <a href="http://shop.oreilly.com/product/0636920033851.do">Jeff Patton, User Story Mapping</a>
+                </li>
+                <li>
+                    <a href="http://blog.crisp.se/2013/11/12/miakolmodin/lean-kravstallning-av-kungliga-operans-planeringssystem">
+                        Mia Kolmodin, Lean UX kravställning av Kungliga Operans planeringssystem
+                    </a>
+                </li>
+                <li>
+                    <a href="http://slides.com/ulrikamalmgren/var-inte-en-risk-for-ditt-team-5#/20">Ulrika Malmgren, Var
+                        inte en risk för ditt team</a>
+                </li>
+                <li>
+                    <a href="https://www.thoughtworks.com/insights/blog/story-mapping-visual-way-building-product-backlog">
+                        Sunit Parekh, Story Mapping, Visual Way of Building Product Backlog
+                    </a>
+                </li>
+                <li>
+                    Impact mapping
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
@@ -45,6 +177,11 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
-		</script>
-	</body>
+
+
+
+
+
+</script>
+</body>
 </html>
